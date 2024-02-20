@@ -115,6 +115,7 @@ html{
     flex-flow: wrap column;
     align-content: center;
     justify-content: center;
+    /* background-color: gray; */
 }
 
 .content-left .tittle{
@@ -191,14 +192,15 @@ html{
 }
 
 
+
 /********* img **********/
         
 
 .content-right{
     width: 50%;
     position: relative;
-    
 }
+
 
 .content-right img{
     width: 28.3rem;
@@ -211,23 +213,29 @@ html{
     transform: translate(-50%, -50%);
 }
 
-
-/******** About **********/
-
-#about{
-    display: flex;
-    flex-flow: wrap column;
-    margin: 140px auto;
-}
+/* ---------------------------------- */
 
 .portAbout , .portSkills, .portCertifications , .portProjects, .portContact{
+    display: flex;
+    flex-flow: wrap column;
     text-align: center;
     font-size:large;
     font-size: 2.4rem;
     font-weight: bold;
     padding: 2.5rem;
     /* background-color: darkgray; */
+}
 
+/* ----------------------------------- */
+
+
+/******** About **********/
+
+#about{
+    display: flex;
+    flex-flow: wrap column;
+    margin-top: 140px;
+    margin-left: auto; 
 }
 
 .about-text{
@@ -238,7 +246,6 @@ html{
     text-align: justify;
     border-radius: 40px;
     margin-bottom: 5vh;
-    border: 3px solid #ff6b6b;
 }
 
 .about-text h4{
@@ -253,12 +260,12 @@ html{
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-
+    /* background-color: red; */
 }
 
 #certifications h4{
     font-size: 1.5rem;
-    margin-bottom: 25px;
+    margin-bottom: 35px;
 }
 
 .box-content{
@@ -313,10 +320,10 @@ html{
 
 #skills{
     width: 100%;
-    background-color: #fcfcfc;
+    /* background-color: #fcfcfc; */
     display: flex;
     flex-flow: wrap column;
-    margin: 7rem 0px 7rem;
+    margin: 2.6rem 0px 7rem;
     padding: 2.5rem 0px;
     border-radius: 23px;
 }
@@ -359,9 +366,18 @@ html{
     #projects{
         width: 100%;
         height: 100%;
-        /* margin: 250px 0px; ; */
+        margin: 220px 0px; ;
         display: flex;
-        flex-flow: wrap column;
+        flex-wrap: wrap;
+        flex-direction: column;
+        background-color: red;
+    }
+
+    .portProjects{
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 95px;
+        background-color: gray;
     }
 
     .box-projects{
@@ -371,9 +387,15 @@ html{
         grid-template-columns: auto auto ;
         grid-template-rows: auto auto auto;
         grid-gap: 100px 60px;
-        justify-content:space-around;
-        flex-wrap: wrap;
+        justify-items: center;
+        align-content: center;
     }
+
+    /* .box-projects{
+        display: flex;
+        flex-flow: wrap row;
+        justify-content: space-evenly;
+    } */
 
     .box{
         width: 700px;
@@ -386,16 +408,21 @@ html{
         flex-flow: wrap column;
     }
 
-    .box h3{
-        /* background-color: firebrick;; */
-        margin: 26px 0px;
-        text-align: center;
-    }
 
+
+    
+    
+    
     .box img{
         width: 100%;
         height: 500px;
         border-radius: 20px;
+    }
+
+    .box h3{
+        /* background-color: firebrick;; */
+        margin: 26px 0px;
+        text-align: center;
     }
 
     .buttons-projects > a{
@@ -417,6 +444,7 @@ html{
         /* height: 100%; */
         display: flex;
         flex-flow: wrap column;
+        justify-content: center;
     }
 
     #entrarEmContato ul{
@@ -485,3 +513,207 @@ html{
     background-color: gold;
 }   */
 /* -------------------------------------------------------------------- */
+
+
+@media(max-width : 1710px){
+
+    #capa{
+        display: flex;
+        flex-flow: wrap column;
+        width: 100%;
+        height: 32vw;
+        margin-bottom: 40px;
+        text-align: center;
+
+    }
+
+    .content-left{
+        width: 100%;
+        margin-top: 120px;
+    }
+
+    .content-left .tittle{
+        font-family: 'Poppins', sans-serif;
+        font-size: 45px;
+    }
+
+    .tittle span{
+        font-size: 55px;
+    }
+
+    .content-right{
+        display: none;
+    }
+
+    .social-icons{
+        display: flex;
+        justify-content: center;
+    }
+
+    .links-container a{
+        padding: 13px 25px;
+    }
+
+    .container-p p:first-of-type{
+        font-size: 24px;
+    }
+
+    .container-p p:last-of-type{
+        padding: 32px 10px; 
+        font-size: 0.8rem;
+    }
+        
+    }
+
+
+    @media (max-width: 1500px){
+
+        #capa{
+            margin-bottom: 300px;
+
+        }
+        #wrapper{
+            display: none;
+        }
+    }
+
+
+    @media (max-width: 1196px){
+        #header{
+            display: flex;
+            flex-direction: column;
+            float: right;
+        }
+    
+        #name-logo{
+            display: block;
+            margin-bottom: 20px;
+        }
+    
+        .navigation{
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+    
+        .content-left .tittle{
+            font-size: 50px;
+        }
+    
+        .tittle span{
+            font-size: 53px;
+        }
+    
+        .container-p{
+            padding: 35px 0px 43px 0px ;
+        }
+    
+        .social-icons{
+            gap: 2.5rem;
+        }
+    
+        .links-container a{
+            padding: 18px 40px;
+        }
+    
+    }
+
+    @media (max-width: 1150px){
+
+        #capa{
+            height: 54%;
+        }
+
+        .links-container{
+            display: flex;
+            flex-wrap: wrap ;
+            display: inline-block;
+            margin: 2em auto;
+        }
+
+    }
+
+    @media (max-width: 1054px){
+
+        #capa{
+            height: 60%;
+        }
+
+    
+
+    }
+
+    @media (max-width: 862px){
+
+        #capa{
+            height: 72%;
+        }
+
+    
+
+    }
+
+    @media (max-width: 722px){
+
+        #capa{
+            height: 90%;
+        }
+    }
+
+
+    @media (max-width: 652px){
+
+        #capa{
+            height: 100%;
+        }
+
+        #about{
+            margin-top: 250px;
+        }
+    }
+
+
+    @media (max-width: 605px){
+
+        #capa{
+            height: 104%;
+        }
+
+        #about{
+            margin-top: 200px;
+        }
+
+        .social-icons{
+            gap: 1.2rem;
+        }
+    
+        .links-container a{
+            padding: 10px 25px;
+        }
+
+    }
+
+    @media (max-width: 593px){
+
+        #capa{
+            margin-bottom: 440px;
+        }
+
+    }
+
+    @media (max-width: 450px){
+
+        #capa{
+            width: 100%;
+            margin-bottom: 440px;
+        }
+    
+        .links-container a{
+            padding: 6px 15px;
+        }
+
+    }
+    
+
+
