@@ -220,24 +220,24 @@
     }
 
     #capa{
-        background-color: blue;
+        /* background-color: blue; */
         margin-bottom: -100px;
      }
 
     #about{
         margin-bottom: -55px;
-        background-color: #fcdc9c;
+        /* background-color: #fcdc9c; */
     }
 
     #skills{
-        background-color: aqua;
+        /* background-color: aqua; */
         text-align: center;
         /* margin-bottom: -1px; */
     }
 
 
     #certifications{
-        background-color: blue;
+        /* background-color: blue; */
         margin-top: -120px ;
     }
 
