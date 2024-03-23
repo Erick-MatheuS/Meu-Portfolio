@@ -185,32 +185,145 @@
 
     }
 
-    /* ----------------------- */
+    /* ------------------------------------------------------------------------------------------ */
 
 
     @media (min-width : 320px) and (max-width: 480px){
 
-      .container, #capa{
-        background-color: gray;
-      }
 
-      #header{
+    body{
+        width: 100%;
+        height: 100%;
+    }
+
+     #header{
+        width: 550px;
+        height: 100%;
+        /* background-color: #dbfdad; */
+        float: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+     }
+
+     .navigation{
+        
+     }
+    
+    .container{
+        width: 550px;
+        height: 100%;
+        padding: 0px;
+        margin: 0px;
+        /* background-color: aliceblue; */
+        
+    }
+
+    #capa{
         background-color: blue;
+        margin-bottom: -100px;
+     }
+
+    #about{
+        margin-bottom: -55px;
+        background-color: #fcdc9c;
+    }
+
+    #skills{
+        background-color: aqua;
+        text-align: center;
+        /* margin-bottom: -1px; */
+    }
+
+
+    #certifications{
+        background-color: blue;
+        margin-top: -120px ;
+    }
+
+    .text-skills{
+        padding: 0px 30px;
+    }
+
+      .container, #capa{
+        /* background-color: gray; */
       }
+
+    #skills > .text-skills{
+        width: 100%;
     }
 
-
-
-    @media (min-width : 517px){
-        .links-container {
-            padding: 30px;
-        }
+    .icons-skills ul{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
     }
+
+    .icons-skills ul li{
+        margin: 20px auto;
+    }
+
+    /* contato */
+
+    footer{
+        /* background-color: aqua; */
+        width: 85%;
+        margin: auto;
+        font-size: 14px;
+    }
+    
+    .footer, .copy-center p{
+        float: right; 
+        margin-left: 7px;
+        /* background-color: red; */
+        line-height: 55px;
+    }
+
+    .nav-bar-center{
+        width: 30px;
+    }
+}
+
+
+
+
+
+
+
+
+
+/* --------------------------------------------------------------------------------------------- */
+
+
 
 
 
 
     @media (min-width : 481px) and (max-width: 768px){
+
+        .container{
+            width: 550px;
+            height: 100%;
+            padding: 0px;
+            margin: 0px;
+            background-color: aliceblue;
+            
+        }
+
+        #skills > .text-skills{
+            width: 100%;
+        }
+    
+        .icons-skills ul{
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column-reverse;
+        }
+    
+        .icons-skills ul li{
+            margin: 20px auto;
+        }
+    
 
 
 
