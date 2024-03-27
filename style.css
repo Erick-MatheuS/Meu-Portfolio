@@ -287,7 +287,8 @@ html{
 }
 
 .box-content .icon-c{
-    padding: 25px 35px;
+    padding: 41px 35px;
+    
 }
 
 .text-content{
@@ -316,6 +317,7 @@ html{
     font-family: serif;
     line-height: 29px;
     font-size: 20px;
+    background-color: red;
 }
 
 /************ Skills *************/
@@ -344,6 +346,7 @@ html{
 
 .icons-skills{
     margin:16px 0px;
+    
 }
 
 .icons-skills ul{
@@ -357,10 +360,12 @@ html{
 
 .icons-skills ul li{
     display: flex;
+    flex-direction:row-reverse;
     align-items: center;
     justify-content: space-evenly;
     margin: auto; 
     font-weight: bold;
+
 }
 
 

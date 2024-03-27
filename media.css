@@ -185,6 +185,32 @@
 
     }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     /* ------------------------------------------------------------------------------------------ */
 
 
@@ -196,7 +222,7 @@
         height: 100%;
     }
 
-     #header{
+     #header{ 
         width: 550px;
         height: 100%;
         /* background-color: #dbfdad; */
@@ -206,27 +232,53 @@
         justify-content: center;
      }
 
-     .navigation{
-        
+     .nav-bar-name  {
+        /* display: none; */
      }
+
+     .navigation{
+        font-size: 1.6rem;
+        background-color: #ffd5d5;
+     }
+
+     .container-p p:last-of-type{
+        padding: 27px 0px; 
+        font-weight: bold;
+        font-size: 1.0rem;
+    }
+
+    .social-icons{
+        display: flex;
+        flex-flow: wrap row;
+        gap: 4rem;
+        margin-bottom: 55px;
+    }
+
+    .links-container a{
+        margin-left: 35px;
+    }
     
     .container{
         width: 550px;
         height: 100%;
         padding: 0px;
         margin: 0px;
-        /* background-color: red; */
-        
+        /* background-color: red; */   
     }
 
     #capa{
         /* background-color: blue; */
-        margin-bottom: -100px;
+        margin: -60px 0px -100px;
+        padding: 28px;
      }
 
     #about{
         margin-bottom: -55px;
-        /* background-color: #fcdc9c; */
+    }
+
+    .about-text{
+     line-height: 33px;
+     /* background-color: red; */
     }
 
     #skills{
@@ -235,19 +287,10 @@
         /* margin-bottom: -1px; */
     }
 
-
-    #certifications{
-        /* background-color: blue; */
-        margin-top: -120px ;
+    .text-skills p{
+        padding: 0px 12px;
+        line-height: 37px;
     }
-
-    .text-skills{
-        padding: 0px 30px;
-    }
-
-      .container, #capa{
-        /* background-color: gray; */
-      }
 
     #skills > .text-skills{
         width: 100%;
@@ -255,13 +298,33 @@
 
     .icons-skills ul{
         display: flex;
-        flex-wrap: wrap;
-        flex-direction: column-reverse;
+        flex-wrap: wrap-reverse;
+        flex-direction: column;
     }
 
     .icons-skills ul li{
         margin: 20px auto;
     }
+
+    #certifications{
+        /* background-color: blue; */
+        margin-top: -98px ;
+    }
+
+    #certifications > h4{
+        text-align: center;
+        margin: 45px 0px 67px 0px;
+        font-size: 1.34rem;
+    }
+    
+    .certifications > h4{
+        text-align: center;
+        margin: 45px 0px 67px 0px;
+        font-size: 1.34rem;
+    }
+
+
+
 
     /* contato */
 
@@ -283,6 +346,42 @@
         width: 30px;
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
