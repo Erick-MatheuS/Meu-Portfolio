@@ -237,21 +237,33 @@
      }
 
      .navigation{
-        font-size: 1.6rem;
-        background-color: #ffd5d5;
+        font-size: 1.8rem;
+        /* background-color: #ffd5d5; */
         /* display: none; */
      }
+
+     .container{
+        width: 550px;
+        height: 100%;
+        padding: 0px;
+        margin: 0px;
+        /* background-color: red; */   
+    }
+
+    .container-p p:first-of-type{
+        font-size: 1.2rem;
+    }
 
      .container-p p:last-of-type{
         padding: 27px 0px; 
         font-weight: bold;
-        font-size: 1.0rem;
+        font-size: 1.5rem;
     }
 
     .social-icons{
         display: flex;
         flex-flow: wrap row;
-        gap: 3.2rem;
+        gap: 4rem;
         margin-bottom: 55px;
         width: 100%;
     }
@@ -260,15 +272,7 @@
         /* margin-left: 35px; */
         /* padding: 30px 45px; */
         font-size: 1.2rem;
-        padding: 20px 15px;
-    }
-    
-    .container{
-        width: 550px;
-        height: 100%;
-        padding: 0px;
-        margin: 0px;
-        /* background-color: red; */   
+        padding: 27px 18px;
     }
 
     #capa{
@@ -309,6 +313,7 @@
 
     .icons-skills ul li{
         margin: 20px auto;
+        font-size: 1.5rem;
     }
 
         /* Certificações */
@@ -349,6 +354,11 @@
     .portContact{
         margin: 80px 0px -60px 0px;
         /* margin-bottom: -40px; */
+    }
+
+    .contact-text{
+        font-size: 1.3rem;
+        /* margin-bottom: 35px; */
     }
 
 
