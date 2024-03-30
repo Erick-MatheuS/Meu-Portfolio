@@ -232,13 +232,14 @@
         justify-content: center;
      }
 
-     .nav-bar-name  {
+     .nav-bar-name{
         /* display: none; */
      }
 
      .navigation{
         font-size: 1.6rem;
         background-color: #ffd5d5;
+        /* display: none; */
      }
 
      .container-p p:last-of-type{
@@ -250,12 +251,16 @@
     .social-icons{
         display: flex;
         flex-flow: wrap row;
-        gap: 4rem;
+        gap: 3.2rem;
         margin-bottom: 55px;
+        width: 100%;
     }
 
     .links-container a{
-        margin-left: 35px;
+        /* margin-left: 35px; */
+        /* padding: 30px 45px; */
+        font-size: 1.2rem;
+        padding: 20px 15px;
     }
     
     .container{
@@ -306,9 +311,19 @@
         margin: 20px auto;
     }
 
+        /* Certificações */
+
     #certifications{
         /* background-color: blue; */
         margin-top: -98px ;
+    }
+
+    .box-content{
+        display: flex;
+        align-items: center;
+        flex-flow: wrap column;
+        border-right: 9px solid #ff6262;
+
     }
 
     #certifications > h4{
@@ -319,14 +334,25 @@
     
     .certifications > h4{
         text-align: center;
-        margin: 45px 0px 67px 0px;
+        margin: -15px 0px 40px 0px;
         font-size: 1.34rem;
     }
 
 
+        /* contato */
+
+    #entraeEmContato{
+        width: 100%;
+        height: 100%;
+    }
+
+    .portContact{
+        margin: 80px 0px -60px 0px;
+        /* margin-bottom: -40px; */
+    }
 
 
-    /* contato */
+        /* Footer */
 
     footer{
         /* background-color: aqua; */

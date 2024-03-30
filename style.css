@@ -275,6 +275,7 @@ html{
     background-color: #ffffff;
     border-radius: 30px;
     display: flex;
+
     line-height:37px;
     margin: 32px 65px;
     transition: ease-in 1.1s;
@@ -288,7 +289,9 @@ html{
 
 .box-content .icon-c{
     padding: 41px 35px;
-    
+    /* background-color: blue; */
+    width: 150px;
+    height: 150px;
 }
 
 .text-content{
@@ -317,7 +320,8 @@ html{
     font-family: serif;
     line-height: 29px;
     font-size: 20px;
-    background-color: red;
+    /* background-color: red; */
+    
 }
 
 /************ Skills *************/
