@@ -251,13 +251,13 @@
     }
 
     .container-p p:first-of-type{
-        font-size: 1.2rem;
+        font-size: 1.4rem;
     }
 
      .container-p p:last-of-type{
         padding: 27px 0px; 
         font-weight: bold;
-        font-size: 1.5rem;
+        font-size: 1.6rem;
     }
 
     .social-icons{
@@ -272,7 +272,7 @@
         /* margin-left: 35px; */
         /* padding: 30px 45px; */
         font-size: 1.2rem;
-        padding: 27px 18px;
+        padding: 32px 26px;
     }
 
     #capa{
@@ -328,7 +328,7 @@
         align-items: center;
         flex-flow: wrap column;
         border-right: 9px solid #ff6262;
-
+        margin: 35px 40px;
     }
 
     #certifications > h4{
@@ -343,6 +343,11 @@
         font-size: 1.34rem;
     }
 
+    .text-content p:first-of-type{
+        margin-bottom: -10px;
+        color: red;
+    }
+
 
         /* contato */
 
@@ -352,7 +357,7 @@
     }
 
     .portContact{
-        margin: 80px 0px -60px 0px;
+        margin: 6rem 0px -60px 0px;
         /* margin-bottom: -40px; */
     }
 
@@ -361,12 +366,15 @@
         /* margin-bottom: 35px; */
     }
 
+    .margin-text-contato{
+        margin-bottom: 25px;
+    }
 
         /* Footer */
 
     footer{
         /* background-color: aqua; */
-        width: 85%;
+        width: 100%;
         margin: auto;
         font-size: 14px;
     }
