@@ -24,6 +24,7 @@
         font-size: 55px;
     }
 
+
     .content-right{
         display: none;
     }
@@ -234,12 +235,14 @@
 
      .nav-bar-name{
         /* display: none; */
+        margin-top: 30px;
+        margin-bottom: -70px;
      }
 
      .navigation{
         font-size: 1.8rem;
-        /* background-color: #ffd5d5; */
-        /* display: none; */
+        background-color: #ffd5d5;
+        display: none;
      }
 
      .container{
@@ -247,7 +250,19 @@
         height: 100%;
         padding: 0px;
         margin: 0px;
-        /* background-color: red; */   
+        /* background-color: red;    */
+    }
+
+    .content-rightt img{
+        width: 270px;
+        margin: 34px auto 34px auto;
+        display: block;
+        border: 8px solid #3a3a3a;
+        border-radius: 50%;
+    }
+
+    .content-right{
+        display: none;
     }
 
     .container-p p:first-of-type{

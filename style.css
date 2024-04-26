@@ -435,13 +435,18 @@ html{
         /* background-color: firebrick;; */
         margin: 26px 0px;
         text-align: center;
+        font-size: 1.7rem;
+    }
+
+    .buttons-projects{
+        margin-top: 14px;
     }
 
     .buttons-projects > a{
         background-color: black;
         border-radius: 12px;
         font-size: 20px;
-        padding: 10px 25px;
+        padding: 12px 35px;
         text-decoration: none;
         color: white;
         cursor:pointer;
