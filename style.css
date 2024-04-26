@@ -204,6 +204,10 @@ html{
     position: relative;
 }
 
+.img-mobile{
+    display: none;
+}
+
 
 .content-right img{
     width: 28.3rem;
