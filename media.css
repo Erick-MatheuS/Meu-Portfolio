@@ -339,7 +339,7 @@
 
     #certifications{
         margin-top: -98px ;
-        background-color: gray;
+        /* background-color: gray; */
     }
 
     .box-content{
@@ -373,7 +373,7 @@
 
 
     #projects{
-        background-color: red;
+        /* background-color: red; */
         /* margin-top: -1px; */
     }
 
@@ -383,7 +383,7 @@
     #entraeEmContato{
         width: 100%;
         height: 100%;
-        background-color: blue;
+        /* background-color: blue; */
     }
     
     .portContact{
