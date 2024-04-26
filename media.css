@@ -368,13 +368,12 @@
     }
 
     .last{
-        margin-bottom: -80px;
+        margin-bottom: -115px;
     }
 
-
-    #projects{
-        /* background-color: red; */
-        /* margin-top: -1px; */
+    .portProjects{
+        /* background-color: hotpink;    */
+        margin-bottom: 56px;
     }
 
 
@@ -383,11 +382,11 @@
     #entraeEmContato{
         width: 100%;
         height: 100%;
-        /* background-color: blue; */
     }
     
     .portContact{
-        margin: 2rem 0px -60px 0px;
+        margin: 1.2rem 0px -10px 0px;
+        
         /* margin-bottom: -40px; */
     }
 
@@ -402,23 +401,23 @@
 
         /* Footer */
 
-    footer{
-        /* background-color: aqua; */
-        width: 100%;
-        margin: auto;
-        font-size: 14px;
-    }
-    
-    .footer, .copy-center p{
-        float: right; 
-        margin-left: 7px;
-        /* background-color: red; */
-        line-height: 55px;
-    }
+        footer{
+            width: 100%;
+            /* background-color: gray; */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
 
-    .nav-bar-center{
-        width: 30px;
-    }
+        .copy-center p {
+            font-size: 10px;
+        }
+
+        footer .nav-bar-name{
+            margin: 0px;
+        } 
+
 }
 
 
