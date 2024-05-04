@@ -254,7 +254,7 @@
     }
 
     .portAbout , .portSkills, .portCertifications , .portProjects, .portContact{
-        font-size: 1.6rem;
+        font-size: 3rem;
     }
 
     
@@ -313,7 +313,7 @@
      padding: 52px;
      /* background-color: red; */
      font-family: "Archivo", sans-serif;
-     font-size: 12px;
+     font-size: 22px;
      /* font-weight: 100; */
     }
 
@@ -342,7 +342,7 @@
 
     .icons-skills ul li{
         margin: 20px auto;
-        font-size: 1.5rem;
+        font-size: 1.7rem;
     }
 
         /* Certificações */
