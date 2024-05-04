@@ -254,7 +254,7 @@
     }
 
     .portAbout , .portSkills, .portCertifications , .portProjects, .portContact{
-        font-size: 3.5rem;
+        font-size: 1.6rem;
     }
 
     
@@ -309,11 +309,11 @@
     }
 
     .about-text{
-     line-height: 33px;
+     line-height: 38px;
      padding: 52px;
      /* background-color: red; */
      font-family: "Archivo", sans-serif;
-     font-size: 24px;
+     font-size: 22px;
      /* font-weight: 100; */
     }
 
