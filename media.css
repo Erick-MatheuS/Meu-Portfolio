@@ -353,8 +353,8 @@
     }
 
     #certifications .text-content p{
-        background-color: #9c9c9c;
-        font-size: 1rem;
+        /* background-color: #9c9c9c; */
+        font-size: 1.1rem;
     }
 
     .box-content{
