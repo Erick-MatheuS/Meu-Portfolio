@@ -352,11 +352,6 @@
         /* background-color: gray; */
     }
 
-    #certifications .text-content p{
-        /* background-color: #9c9c9c; */
-        font-size: 1.1rem;
-    }
-
     .box-content{
         display: flex;
         align-items: center;
@@ -391,6 +386,11 @@
         font-size: 1.5rem;
     }
 
+    #certifications .text-content p{
+        /* background-color: #9c9c9c; */
+        font-size: 1.1rem;
+    }
+
     .last{
         margin-bottom: -115px;
     }
@@ -413,7 +413,6 @@
     .portContact{
         margin: -1.4rem 0px -1.5rem 0px;
         /* margin-bottom: -40px; */
-        background-color: firebrick;
     }
 
     .contact-text{
