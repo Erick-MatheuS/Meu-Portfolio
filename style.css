@@ -11,7 +11,6 @@ body{
     width: 100%;
     height: 100%;
     font-family: sans-serif;
-    /* position: relative; */
 }
 
 html{
@@ -95,15 +94,12 @@ html{
     letter-spacing: 6px;
 }
 
-
 /*-------------------------- Container ------------------------------ */
-
 
 .container{
     width: 68%;
     height: 100vw;
     margin: auto;
-    /* background-color: gray; */
 }
 
 
@@ -119,7 +115,6 @@ html{
     flex-flow: wrap column;
     align-content: center;
     justify-content: center;
-    /* background-color: gray; */
 }
 
 .content-left .tittle{
@@ -144,7 +139,6 @@ html{
     font-size: 1rem;
     font-weight: 600;
     color: #242222;
-    /* padding: 12px 0px; */
 }
 
 .container-p span{
@@ -195,10 +189,7 @@ html{
     margin-right: 40px;
 }
 
-
-
 /********* img **********/
-        
 
 .content-right{
     width: 50%;
@@ -213,7 +204,6 @@ html{
 .content-right img{
     width: 28.3rem;
     height: 28.3rem;
-    /* border-radius: 10%; */
     transition: all 1.8s;
     position: absolute;
     top: 50%;
@@ -221,7 +211,6 @@ html{
     transform: translate(-50%, -50%);
 }
 
-/* ---------------------------------- */
 
 .portAbout , .portSkills, .portCertifications , .portProjects, .portContact{
     display: flex;
@@ -231,10 +220,7 @@ html{
     font-size: 2.4rem;
     font-weight: bold;
     padding: 2.5rem;
-    /* background-color: darkgray; */
 }
-
-/* ----------------------------------- */
 
 
 /******** About **********/
@@ -268,7 +254,6 @@ html{
 
 #skills{
     width: 100%;
-    /* background-color: #fcfcfc; */
     display: flex;
     flex-flow: wrap column;
     margin: 2.6rem 0px 7rem;
@@ -314,18 +299,15 @@ html{
 /********** Certificações ************/
 
 #certifications{
-    /* background-color: green; */
 }
 
 .certifications{
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    /* background-color: blue; */
 }
 
 .portCertifications{
-    /* background-color: blue; */
     margin-bottom: 52px;
 }
 
@@ -341,7 +323,6 @@ html{
     margin: 31px 65px;
     transition: ease-in 1.1s;
     border-left: 9px solid #ff6262;
-    /* border-right: 9px solid #ff6262; */
 }
 
 .box-content:hover{
@@ -350,7 +331,6 @@ html{
 
 .box-content .icon-c{
     padding: 41px 35px;
-    /* background-color: blue; */
     width: 150px;
     height: 150px;
 }
@@ -381,7 +361,6 @@ html{
     font-family: serif;
     line-height: 29px;
     font-size: 20px;
-    /* background-color: red; */
 }
 
 
@@ -395,16 +374,14 @@ html{
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
-        /* background-color: red; */
     }
-
+    
     .portProjects{
         display: flex;
         flex-wrap: wrap;
         margin-bottom: 95px;
-        /* background-color: gray; */
     }
-
+    
     .box-projects{
         width: 100%;
         display: grid;
@@ -414,19 +391,18 @@ html{
         justify-items: center;
         align-content: center;
     }
-
+    
     .box-projects{
         display: flex;
         flex-flow: wrap row;
         justify-content: space-evenly;
         padding: 13px 30px;
     }
-
+    
     .box{
         width: 700px;
         height: 650px;
         border-radius: 20px;
-        /* border: 0.5px solid black; */
         background-color: #ffffff;
         text-align: center;
         display: flex;
@@ -434,13 +410,13 @@ html{
     }
     
     .box img{
+        border: 2px solid grey;
         width: 100%;
         height: 500px;
         border-radius: 20px;
     }
 
     .box h3{
-        /* background-color: firebrick;; */
         margin: 26px 0px;
         text-align: center;
         font-size: 1.7rem;
@@ -466,7 +442,6 @@ html{
 
     #entrarEmContato{
         width: 100%;
-        /* height: 100%; */
         display: flex;
         flex-flow: wrap column;
         justify-content: center;
@@ -475,7 +450,6 @@ html{
     #entrarEmContato ul{
         text-align: center;
         line-height: 3.2rem;
-        /* background-color: red; */
         padding: 80px 0px;
     }
 
@@ -494,52 +468,23 @@ html{
     }
 
 
-/******************* FOTTER *******************/ 
+/******************* Footer *******************/ 
 
  footer{
-    /* width: 80%; */
     font-weight: bold;
     font-family: Georgia, 'Times New Roman', Times, serif;
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 8px 0px;
-    /* background-color: blue; */
 }
 
 .footer, .copy-center p{
     float: right; 
     margin-left: 7px;
-    /* background-color: red; */
     line-height: 55px;
 }
 
-/* ------------------------------------------------------------------ */
-
-  /* body{
-    background-color: rgb(211, 211, 211);
-} */
-
-/* #header{
-    background-color: gray;
-} */
-
-/* .navigation{
-    background-color: antiquewhite;
-} */
-/* 
-.container{
-    background-color: green;
-} */
-
-/* .content-left{
-    background-color: greenyellow;
-}
-
-.content-right{
-    background-color: gold;
-}   */
-/* -------------------------------------------------------------------- */
 
 
 
