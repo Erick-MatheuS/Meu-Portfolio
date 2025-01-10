@@ -1,373 +1,370 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap');
-  @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Josefin+Sans:wght@700&family=Nova+Square&family=Open+Sans:wght@800&family=Poppins:wght@900&display=swap');        /* HEADER */
-*{
-    padding: 0px;
-    margin: 0px;
-    box-sizing: border-box;
-}
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Josefin+Sans:wght@700&family=Nova+Square&family=Open+Sans:wght@800&family=Poppins:wght@900&display=swap');        /* HEADER */
 
-body{
-    width: 100%;
-    height: 100%;
-    font-family: sans-serif;
-}
+    * {
+        padding: 0px;
+        margin: 0px;
+        box-sizing: border-box;
+    }
 
-html{
-    scroll-behavior: smooth;
-}
+    body {
+        width: 100%;
+        height: 100%;
+        font-family: sans-serif;
+    }
 
-::-webkit-scrollbar{
-    width: 12px;
-    background-color: #ebebeb;
-}
+    html {
+        scroll-behavior: smooth;
+    }
 
-::-webkit-scrollbar-thumb{
-    background-color: #fd5b5b;
-    border-radius: 200px;
-}
+    ::-webkit-scrollbar {
+        width: 12px;
+        background-color: #ebebeb;
+    }
 
-/* Cabeçalho */
+    ::-webkit-scrollbar-thumb {
+        background-color: #fd5b5b;
+        border-radius: 200px;
+    }
 
-#header{
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-flow: wrap row;
-    align-items: center;
-    justify-content: space-between;
-    padding: 1.2% 5%;
-} 
+/* ---------------------------- Cabeçalho ----------------------------*/
 
-#name-logo{
-    display: flex;
-    align-items: center;
-}
+    #header {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-flow: wrap row;
+        align-items: center;
+        justify-content: space-between;
+        padding: 1.2% 5%;
+    } 
 
-.navigation{
-    display: flex;
-    list-style: none;
-    flex-flow: wrap row;
-    align-items: center;
-    gap: 5.4rem;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
+    #name-logo {
+        display: flex;
+        align-items: center;
+    }
 
-.navigation li a {
-    color: black;
-    text-decoration: none;
-    position: relative;
-    transition: all 1.2s;
-}
+    .navigation {
+        display: flex;
+        list-style: none;
+        flex-flow: wrap row;
+        align-items: center;
+        gap: 5.4rem;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
 
-.navigation li a::after{
-    content: "";
-    position: absolute;
-    width: 0px;
-    height: 3px;
-    background-color: #fa6a6a;
-    bottom: -6px;
-    left: 0px;
+    .navigation li a {
+        color: black;
+        text-decoration: none;
+        position: relative;
+        transition: all 1.2s;
+    }
 
-    transition: 1.1s ease-in-out;
-}
+    .navigation li a::after {
+        content: "";
+        position: absolute;
+        width: 0px;
+        height: 3px;
+        background-color: #fa6a6a;
+        bottom: -6px;
+        left: 0px;
 
-.navigation li a:hover::after{
-    font-style: italic;
+        transition: 1.1s ease-in-out;
+    }
 
-    width: 100%;
-}
+    .navigation li a:hover::after {
+        font-style: italic;
 
-.navigation li a:hover{
-    color: #fa6a6a;
-    width: 100%;
-}
+        width: 100%;
+    }
 
-#wrapper{
-    border-radius: 20px;
-    padding: 6px 23px;
-    font-size: 25px;
-    color: #fdfdfd;
-    background-color: #ff3a3a;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-weight: bold;
-    letter-spacing: 6px;
-}
+    .navigation li a:hover {
+        color: #fa6a6a;
+        width: 100%;
+    }
+
+    #wrapper {
+        border-radius: 20px;
+        padding: 6px 23px;
+        font-size: 25px;
+        color: #fdfdfd;
+        background-color: #ff3a3a;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: bold;
+        letter-spacing: 6px;
+    }
 
 /*-------------------------- Container ------------------------------ */
 
-.container{
-    width: 68%;
-    height: 100vw;
-    margin: auto;
-}
+    .container {
+        width: 68%;
+        height: 100vw;
+        margin: auto;
+    }
 
 
-#capa{
-    display: flex;
-    width: 100%;
-    height: 98vh;
-}
+    #capa {
+        display: flex;
+        width: 100%;
+        height: 98vh;
+    }
 
-.content-left{
-    width: 50%;
-    display: flex;
-    flex-flow: wrap column;
-    align-content: center;
-    justify-content: center;
-}
+    .content-left {
+        width: 50%;
+        display: flex;
+        flex-flow: wrap column;
+        align-content: center;
+        justify-content: center;
+    }
 
-.content-left .tittle{
-    font-family: 'Poppins', sans-serif;
-    letter-spacing: 4.3px;
-    font-size: 75px;
-}
+    .content-left .tittle {
+        font-family: 'Poppins', sans-serif;
+        letter-spacing: 4.3px;
+        font-size: 75px;
+    }
 
-.tittle span{
-    color: #ff3a3a;
-    font-family: 'Poppins', sans-serif;
-    font-style: italic;
-    font-size: 75px;
-}
+    .tittle span {
+        color: #ff3a3a;
+        font-family: 'Poppins', sans-serif;
+        font-style: italic;
+        font-size: 75px;
+    }
 
-.container-p {
-    padding: 10px 0px;
-}
+    .container-p {
+        padding: 10px 0px;
+    }
 
-.container-p p:first-of-type{
-    font-family: monospace;
-    font-size: 1rem;
-    font-weight: 600;
-    color: #242222;
-}
+    .container-p p:first-of-type{
+        font-family: monospace;
+        font-size: 1rem;
+        font-weight: 600;
+        color: #242222;
+    }
 
-.container-p span{
-    color: red;
-    font-weight: bold;
-    text-decoration: underline;
-    font-style: italic;
-}
+    .container-p span{
+        color: red;
+        font-weight: bold;
+        text-decoration: underline;
+        font-style: italic;
+    }
 
-.container-p p:last-of-type{
-    padding: 15px 0px; 
-    font-weight: bold;
-    font-size: 1.0rem;
-}
+    .container-p p:last-of-type{
+        padding: 15px 0px; 
+        font-weight: bold;
+        font-size: 1.0rem;
+    }
 
-.social-icons{
-    display: flex;
-    flex-flow: wrap row;
-    gap: 4rem;
-}
+    .social-icons{
+        display: flex;
+        flex-flow: wrap row;
+        gap: 4rem;
+    }
 
-.links-container{
-    display: flex;
-    flex-wrap: wrap row;
-    display: inline-block;
-    margin: 2em 0px;
-}
+    .links-container{
+        display: flex;
+        flex-wrap: wrap row;
+        display: inline-block;
+        margin: 2em 0px;
+    }
 
-.links-container a{
-    background-color: #ff3a3a;
-    color: #fff;
-    font-size: 17px;
-    font-weight: bold;
-    width: 300px;
-    height: 100px;
-    border-radius: 30px;
-    padding: 20px 50px;
-    text-decoration: none;
-}
+    .links-container a{
+        background-color: #ff3a3a;
+        color: #fff;
+        font-size: 17px;
+        font-weight: bold;
+        width: 300px;
+        height: 100px;
+        border-radius: 30px;
+        padding: 20px 50px;
+        text-decoration: none;
+    }
 
-.links-container a:hover{
-    background-color: #fa6a6a;
-    transition: ease-in 0.5s;
-    color: #dfdfdf;
-}
+    .links-container a:hover{
+        background-color: #fa6a6a;
+        transition: ease-in 0.5s;
+        color: #dfdfdf;
+    }
 
-.links-container a:first-child{
-    margin-right: 40px;
-}
+    .links-container a:first-child{
+        margin-right: 40px;
+    }
 
-/********* img **********/
+/* ---------------------------- img ----------------------------- */
 
-.content-right{
-    width: 50%;
-    position: relative;
-}
+    .content-right {
+        width: 50%;
+        position: relative;
+    }
 
-.img-mobile{
-    display: none;
-}
-
-
-.content-right img{
-    width: 28.3rem;
-    height: 28.3rem;
-    transition: all 1.8s;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
+    .img-mobile {
+        display: none;
+    }
 
 
-.portAbout , .portSkills, .portCertifications , .portProjects, .portContact{
-    display: flex;
-    flex-flow: wrap column;
-    text-align: center;
-    font-size:large;
-    font-size: 2.4rem;
-    font-weight: bold;
-    padding: 2.5rem;
-}
+    .content-right img {
+        width: 28.3rem;
+        height: 28.3rem;
+        transition: all 1.8s;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
 
 
-/******** About **********/
-
-#about{
-    display: flex;
-    flex-flow: wrap column;
-    margin-top: 140px;
-    margin-left: auto; 
-}
-
-.about-text{
-    background-color: #fcfcfc;
-    font-size: 18px;
-    line-height: 1.22rem;
-    padding: 60px;
-    text-align: justify;
-    border-radius: 40px;
-    margin-bottom: 5vh;
-}
-
-.about-text h4{
-    font-size: 1.3rem;
-    padding-bottom: 30px;
-    color: #fd5b5b;
-}
+    .portAbout , .portSkills, .portCertifications , .portProjects, .portContact {
+        display: flex;
+        flex-flow: wrap column;
+        text-align: center;
+        font-size:large;
+        font-size: 2.4rem;
+        font-weight: bold;
+        padding: 2.5rem;
+    }
 
 
-/************ Skills *************/
+/* ----------------------------- About ------------------------------- */
+
+    #about {
+        display: flex;
+        flex-flow: wrap column;
+        margin-top: 140px;
+        margin-left: auto; 
+    }
+
+    .about-text {
+        background-color: #fcfcfc;
+        font-size: 18px;
+        line-height: 1.22rem;
+        padding: 60px;
+        text-align: justify;
+        border-radius: 40px;
+        margin-bottom: 5vh;
+    }
+
+    .about-text h4 {
+        font-size: 1.3rem;
+        padding-bottom: 30px;
+        color: #fd5b5b;
+    }
 
 
-#skills{
-    width: 100%;
-    display: flex;
-    flex-flow: wrap column;
-    margin: 2.6rem 0px 7rem;
-    padding: 2.5rem 0px;
-    border-radius: 23px;
-}
+/* -------------------------- Skills ---------------------------------- */
 
-.text-skills{
-    text-align: center;
-    margin: auto;
-    width: 60%;
-    margin-bottom: 55px;
-}
 
-.text-skills p{
-    line-height: 40px;
-}
+    #skills {
+        width: 100%;
+        display: flex;
+        flex-flow: wrap column;
+        margin: 2.6rem 0px 7rem;
+        padding: 2.5rem 0px;
+        border-radius: 23px;
+    }
 
-.icons-skills{
-    margin:16px 0px;
-    
-}
+    .text-skills {
+        text-align: center;
+        margin: auto;
+        width: 60%;
+        margin-bottom: 55px;
+    }
 
-.icons-skills ul{
-    list-style: none;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    align-items: center;
-    align-content: center;
-}
+    .text-skills p {
+        line-height: 40px;
+    }
 
-.icons-skills ul li{
-    display: flex;
-    flex-direction:row-reverse;
-    align-items: center;
-    justify-content: space-evenly;
-    margin: auto; 
-    font-weight: bold;
+    .icons-skills {
+        margin:16px 0px; 
+    }
 
-}
+    .icons-skills ul {
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-items: center;
+        align-content: center;
+    }
 
-/********** Certificações ************/
+    .icons-skills ul li {
+        display: flex;
+        flex-direction:row-reverse;
+        align-items: center;
+        justify-content: space-evenly;
+        margin: auto; 
+        font-weight: bold;
 
-#certifications{
-}
+    }
 
-.certifications{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-}
+/* ------------------------------ Certificações -------------------------- */
 
-.portCertifications{
-    margin-bottom: 52px;
-}
+    #certifications{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
 
-.certifications, h4 ,.form-h4{
-    font-size: 1.5rem;
-}
+    .portCertifications{
+        margin-bottom: 52px;
+    }
 
-.box-content{
-    background-color: #ffffff;
-    border-radius: 30px;
-    display: flex;
-    line-height:37px;
-    margin: 31px 65px;
-    transition: ease-in 1.1s;
-    border-left: 9px solid #ff6262;
-}
+    .certifications, h4 ,.form-h4{
+        font-size: 1.5rem;
+    }
 
-.box-content:hover{
-    background-color: #fff7f7;
-}
+    .box-content{
+        background-color: #ffffff;
+        border-radius: 30px;
+        display: flex;
+        line-height:37px;
+        margin: 31px 65px;
+        transition: ease-in 1.1s;
+        border-left: 9px solid #ff6262;
+    }
 
-.box-content .icon-c{
-    padding: 41px 35px;
-    width: 150px;
-    height: 150px;
-}
+    .box-content:hover {
+        background-color: #fff7f7;
+    }
 
-.text-content{
-    padding: 25px 20px;
-}
+    .box-content .icon-c {
+        padding: 41px 35px;
+        width: 150px;
+        height: 150px;
+    }
 
-.text-content p:nth-child(1){
-    font-weight: bold;
-    font-size: 1rem;
-}
+    .text-content {
+        padding: 25px 20px;
+    }
 
-.text-content p:nth-child(2){
-    font-weight: bold;
-    font-size: 1.1rem;
-    color: red;
-}
+    .text-content p:nth-child(1) {
+        font-weight: bold;
+        font-size: 1rem;
+    }
 
-.text-content p:nth-child(3){
-    font-family:Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    font-size: 0.8rem;
-    margin-bottom: 20px;
-}
+    .text-content p:nth-child(2) {
+        font-weight: bold;
+        font-size: 1.1rem;
+        color: red;
+    }
 
-.text-content p:nth-child(4){
-    font-family: serif;
-    line-height: 29px;
-    font-size: 20px;
-}
+    .text-content p:nth-child(3) {
+        font-family:Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 0.8rem;
+        margin-bottom: 20px;
+    }
+
+    .text-content p:nth-child(4) {
+        font-family: serif;
+        line-height: 29px;
+        font-size: 20px;
+    }
 
 
 
-/******************* Projetos *********************/
+/* -------------------------------- Projetos ------------------------------ */
 
-    #projects{
+    #projects {
         width: 100%;
         height: 100%;
         margin: 190px 0px; ;
@@ -376,7 +373,7 @@ html{
         flex-direction: column;
     }
     
-    .portProjects{
+    .portProjects {
         display: flex;
         flex-wrap: wrap;
         margin-bottom: 95px;
@@ -392,14 +389,14 @@ html{
         align-content: center;
     }
     
-    .box-projects{
+    .box-projects {
         display: flex;
         flex-flow: wrap row;
         justify-content: space-evenly;
         padding: 13px 30px;
     }
     
-    .box{
+    .box {
         width: 700px;
         height: 650px;
         border-radius: 20px;
@@ -409,24 +406,24 @@ html{
         flex-flow: wrap column;
     }
     
-    .box img{
+    .box img {
         border: 2px solid grey;
         width: 100%;
         height: 500px;
         border-radius: 20px;
     }
 
-    .box h3{
+    .box h3 {
         margin: 26px 0px;
         text-align: center;
         font-size: 1.7rem;
     }
 
-    .buttons-projects{
+    .buttons-projects {
         margin-top: 14px;
     }
 
-    .buttons-projects > a{
+    .buttons-projects > a {
         background-color: black;
         border-radius: 12px;
         font-size: 20px;
@@ -438,29 +435,29 @@ html{
     }
 
 
-/************ Contato *************/
+/* ----------------------------------- Contato -------------------------------- */
 
-    #entrarEmContato{
+    #entrarEmContato {
         width: 100%;
         display: flex;
         flex-flow: wrap column;
         justify-content: center;
     }
 
-    #entrarEmContato ul{
+    #entrarEmContato ul {
         text-align: center;
         line-height: 3.2rem;
         padding: 80px 0px;
     }
 
-    #entrarEmContato ul li{
+    #entrarEmContato ul li {
         list-style-type: none;
         display: flex;
         justify-content: center;
         align-items: center;
     }
     
-    #entrarEmContato a{
+    #entrarEmContato a {
         text-decoration: none;
         color: black;
         margin-left: 6px;
@@ -468,22 +465,22 @@ html{
     }
 
 
-/******************* Footer *******************/ 
+/* --------------------------------- Footer -------------------------------*/ 
 
- footer{
-    font-weight: bold;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 8px 0px;
-}
+    footer {
+        font-weight: bold;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 8px 0px;
+    }
 
-.footer, .copy-center p{
-    float: right; 
-    margin-left: 7px;
-    line-height: 55px;
-}
+    .footer, .copy-center p {
+        float: right; 
+        margin-left: 7px;
+        line-height: 55px;
+    }
 
 
 
