@@ -1,0 +1,214 @@
+@media (min-width : 320px) and (max-width: 480px){
+
+
+    body{
+        width: 100%;
+        height: 100%;
+    }
+
+/* Header */
+
+     #header{ 
+        width: 550px;
+        height: 100%;
+        float: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+     }
+
+     .nav-bar-name{
+        display: none;
+     }
+
+     .navigation{
+        font-size: 1.8rem;
+        background-color: #000000;
+        display: none;
+     }
+
+/* Container */
+
+     .container{
+        width: 610px;
+        height: 100%;
+        padding: 0px;
+        margin: -120px 0px;
+        overflow: hidden;
+    }
+
+    .portAbout , .portSkills, .portCertifications , .portProjects, .portContact{
+        font-size: 2.95rem;
+    }
+
+    
+    .img-mobile{
+        display: block;
+    }
+
+    .img-mobile img{
+        width: 270px;
+        margin: 34px auto 34px auto;
+        border: 8px solid #3a3a3a;
+        border-radius: 50%;
+    }
+
+    .content-right{
+        display: none;
+    }
+
+    .container-p p:first-of-type{
+        font-size: 1.8rem;
+    }
+
+     .container-p p:last-of-type{
+        padding: 27px 0px; 
+        font-weight: bold;
+        font-size: 1.5rem;
+    }
+
+/* Rede social */
+
+    .social-icons{
+        display: flex;
+        flex-flow: wrap row;
+        gap: 4rem;
+        margin-bottom: 55px;
+        width: 100%;
+    }
+
+    .links-container a{
+        font-size: 1.2rem;
+        padding: 32px 36px;;
+    }
+
+    #capa{
+        margin: -60px 0px -100px;
+        padding: 28px;
+     }
+
+/* Sobre mim */
+
+    #about{
+        margin-bottom: -55px;
+    }
+
+    .about-text{
+        line-height: 38px;
+        padding: 52px;
+        font-family: "Archivo", sans-serif;
+        font-size: 22px;
+    }
+
+/* Habilidades */
+
+    #skills{
+        text-align: center;
+    }
+    
+    .text-skills p{
+        padding: 0px 27px;
+        line-height: 37px;
+        font-family: "Archivo", sans-serif;
+        font-size: 24px;
+    }
+
+    #skills > .text-skills{
+        width: 100%;
+    }
+
+    .icons-skills ul{
+        display: flex;
+        flex-wrap: wrap-reverse;
+        flex-direction: column;
+    }
+
+    .icons-skills ul li{
+        margin: 20px auto;
+        font-size: 1.7rem;
+    }
+
+/* Cursos */
+
+    #certifications{
+        margin-top: -98px ;
+    }
+
+    .box-content{
+        display: flex;
+        flex-flow: wrap column;
+        border-right: 9px solid #ff6262;
+        margin: 35px 40px;
+    }
+
+    #certifications  > h4{
+        text-align: center;
+        margin: 45px 0px 47px 14px;
+        font-size: 1.9rem;
+    }
+    
+    .certifications > h4{
+        margin: -10px 0px 47px 44px;
+        font-size: 1.9rem;
+    }
+
+    .text-content p:first-of-type{
+        margin-bottom: -10px;
+        color: red;
+    }
+
+    .text-content .aa{
+        font-size: 1.5rem;
+    }
+
+    #certifications .text-content p{
+        font-size: 1.1rem;
+    }
+
+    .last{
+        margin-bottom: -115px;
+    }
+
+/* Projetos */
+
+    .portProjects{
+        margin-bottom: 56px;
+    }
+    
+    #entrarEmContato{
+        width: 100%;
+        height: 100%;
+    }
+    
+    .portContact{
+        margin: -1.4rem 0px -1.5rem 0px;
+    }
+
+    .contact-text{
+        font-size: 1.3rem;
+    }
+
+    .margin-text-contato{
+        margin-bottom: 25px;
+    }
+
+/* Rodape */
+
+    footer{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .copy-center p {
+        font-size: 0.8rem;
+    }
+
+    footer .nav-bar-name{
+        margin: 0px;
+    } 
+
+}
+

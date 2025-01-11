@@ -1,4 +1,52 @@
 
+@media(max-width : 1710px){
+
+    #capa{
+        display: flex;
+        flex-flow: wrap column;
+        width: 100%;
+        height: 32vw;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+
+    .content-left{
+        width: 100%;
+        margin-top: 120px;
+    }
+
+    .content-left .tittle{
+        font-family: 'Poppins', sans-serif;
+        font-size: 45px;
+    }
+
+    .tittle span{
+        font-size: 55px;
+    }
+
+    .content-right{
+        display: none;
+    }
+
+    .social-icons{
+        display: flex;
+        justify-content: center;
+    }
+
+    .links-container a{
+        padding: 13px 25px;
+    }
+
+    .container-p p:first-of-type{
+        font-size: 24px;
+    }
+
+    .container-p p:last-of-type{
+        padding: 32px 10px; 
+        font-size: 0.8rem;
+    }
+        
+    }
 
 @media (min-width: 1200px) and (max-width: 1700px) {
 
@@ -49,7 +97,6 @@
 
 }
 
-
 @media (max-width: 1500px){
 
     #capa{
@@ -61,9 +108,7 @@
     }
 }
 
-@media (min-width: 862px) and (max-width: 1199px) {
-
-    
+@media (max-width: 1196px){
     #header{
         display: flex;
         flex-direction: column;
@@ -98,6 +143,22 @@
         gap: 2.5rem;
     }
 
+    .links-container a{
+        padding: 18px 40px;
+    }
+
+}
+
+@media (max-width: 1150px){
+    
+    #header{
+        margin: 0px 0px 40px;
+    }
+
+    #capa{
+        height: 54%;
+    }
+
     .links-container{
         display: flex;
         flex-wrap: wrap ;
@@ -105,24 +166,9 @@
         margin: 2em auto;
     }
 
-    .links-container a{
-        padding: 18px 40px;
-    }
-
-    #capa{
-        display: flex;
-        flex-flow: wrap column;
-        width: 100%;
-        height: 32vw;
-        margin-bottom: 40px;
-        text-align: center;
-    }
-
-    .content-right{
-        display: none;
-    }
-    
 }
+
+
 
 
 
